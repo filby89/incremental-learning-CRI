@@ -28,5 +28,5 @@ selecting your preferred number of segments and modality.
 The incremental learning module is inside the ``FACIL`` directory (initial code from https://github.com/mmasana/FACIL). Example of running the extended icarl for 5 exemplars-per-class and 10 tasks:
 
 ``
-python main_incremental_baby_both.py --approach icarl --num-exemplars-per-class 5 --num-tasks 10 --nepochs 60 --lr-patience 100
+python main_incremental_babyaction.py --approach icarl --num-exemplars-per-class 5 --num-tasks 10 --nepochs 60 --lr-patience 100
 ``
